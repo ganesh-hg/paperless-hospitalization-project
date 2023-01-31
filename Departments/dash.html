@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dash</title>
+    <style> 
+    /* dropdown*/
+    .dropbtn {
+        background-color: rgb(10 255 7 / 34%);
+        padding-top: 7px;
+        padding-bottom: 10px;
+        padding-inline-end: 10%;
+        font-size: 35px;
+        border: 2px solid rgb(245, 0, 0);
+        border-radius: 10px
+        }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        }
+
+     .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #adadad;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(211, 23, 23, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(0, 0, 0);
+  padding: 20px 30px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(204, 41, 41);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+    
+    </style>
+</head>
+
+<div class="dropdown">
+  <button class="dropbtn">Departments</button>
+  <div class="dropdown-content">
+    <a href="cardiology.html">CARDIOLOGY</a>
+    <a href="GASTROENTEROLOGY.html"> GASTROENTEROLOGY</a>
+    <a href="ANEASTHETICS.html">ANEASTHETICS</a>
+    <a href="NEUROLOGY.html">NEUROLOGY</a>
+    <a href="HAEMATOLOGY.html">HAEMATOLOGY</a>
+    <a href="OPTHALMOLOGY.html">OPTHALMOLOGY</a>
+    <a href="NUTRITION AND DIETITICS.html">NUTRITION AND DIETITICS</a>
+    <a href="MICROBIOLOGY.html">MICROBIOLOGY</a>
+  </div>
+</div>
+<body style="background-color: white;">
+</body>
+</html>
